@@ -17,9 +17,9 @@ plugins {
 }
 
 apply plugin: "com.github.johnrengelman.shadow"
-mainClassName = 'de.ionos.YamlParser'
+mainClassName = 'com.ionos.cloud.YamlParser'
 
-group 'de.ionos'
+group 'com.ionos.cloud'
 version '0.0.1'
 
 repositories {

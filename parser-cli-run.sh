@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-./gradlew shadowJar --quiet
+
+# Uncomment to rebuild
+#./gradlew shadowJar --quiet
 
 java -jar build/libs/ionos-yaml-parser-0.0.1-all.jar \
 "samples/sample-00.yaml" \
