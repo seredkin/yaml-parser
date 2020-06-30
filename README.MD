@@ -13,11 +13,11 @@ contrary to Batch/Recursive processors.
 
 * JDK 8
 
-## Build 
+## Build / Test
 
 `$ ./gradlew shadowJar`
 
-## Run/Test
+## Run
 
 Check out comments in shell scripts for details, here's a simple case:
 
